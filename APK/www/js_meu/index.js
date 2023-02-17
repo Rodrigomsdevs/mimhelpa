@@ -2,6 +2,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
 
+
+    StatusBar.overlaysWebView(true);
+
     if (session.has()) {
         //alert('HOME');
         //window.location.href = "home.html";
@@ -9,5 +12,7 @@ function onDeviceReady() {
     } else {
         $("#login").trigger('click');
     }
+
+
 
 }

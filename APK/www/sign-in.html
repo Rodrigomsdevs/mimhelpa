@@ -15,7 +15,7 @@
         <!-- separator -->
         <div class="separator-large"></div>
         <!-- end separator -->
-
+        <a href="/" id="gohome" hidden>GO HOME</a>
         <!-- sign in -->
         <div class="sign-in">
             <div class="content text-center">
@@ -28,7 +28,7 @@
             <!-- end separator -->
 
             <div class="content-form">
-                <form class="list" id="formLogin">
+                <div class="list" id="formLogin">
                     <ul>
                         <li class="item-content item-input">
                             <div class="item-inner">
@@ -47,10 +47,10 @@
                     </ul>
                     <div class="button-default">
                         <div class="container">
-                          <button class="button" id="submit" onclick="javascript:login._submit();">Entrar</button>
+                          <button class="button" id="submit" onclick="javascript:login._submit(this);">Entrar</button>
                         </div>
                     </div>
-                </form>
+                </div>
 
                 <!-- separator -->
                 <div class="separator-medium"></div>

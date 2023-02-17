@@ -1,4 +1,4 @@
-class config {
+class configClass {
     
     constructor(){
         this.endPoint = "https://mimhelpa.io/API_ACADEMIA/";
@@ -6,4 +6,4 @@ class config {
     
 }
 
-let config_ = new config();
+let config = new configClass();
